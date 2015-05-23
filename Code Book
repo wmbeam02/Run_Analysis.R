@@ -1,0 +1,12 @@
+## Variables and Descriptions
+-  feature, features, features_do, x_features: All of these variables are used to organize and clean the features.txt
+file without losing any of the original data.
+-  subject_test, testX, testY, x_test & y_test:  All of these variables are used to organizethe test.txt
+file without losing any of the original data.
+-  s_train, trainX, trainY, x_train & y_train:  All of these variables are used to organize the train.txt
+file without losing any of the original data.
+-  x_bind, s_bind & y_bind:  These variables are used to combine similar data into consolidated tables.
+-  x_bind_sub1 & x_bind_sub2:  Were used to strip out the columns that did not have "mean" or "std" in their names.
+-  x_final:  The variable I used to combine the X data that had the column names I wanted.
+-  total_data:  The final table of all the clean data from the x, y & subject subsets.
+-  Average_Data:  The data table that held the mean data for the total_data table.
